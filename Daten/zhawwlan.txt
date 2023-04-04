@@ -1,0 +1,16 @@
+SSID:	ZHAW
+Protokoll:	Wi-Fi 5 (802.11ac) 
+Sicherheitstyp:	WPA2-Enterprise
+Hersteller:	Intel Corporation
+Beschreibung:	Intel(R) Dual Band Wireless-AC 8275 #2
+Treiberversion:	20.70.3.3
+Art der Anmeldeinfos:	Microsoft: Geschütztes EAP (PEAP)
+Netzfrequenzbereich:	5 GHz
+Netzwerkkanal:	112
+Verbindungsgeschwindigkeit (Empfang/Übertragung):	400/400 (Mbps)
+Verbindungslokale IPv6-Adresse:	fe80::ddd5:c76b:732e:6cf1%6
+IPv4-Adresse:	160.85.121.111
+IPv4-DNS-Server:	160.85.192.100 (unverschlüsselt)
+160.85.193.100 (unverschlüsselt)
+Primäres DNS-Suffix:	zhaw.ch
+Physische Adresse (MAC):	A4-9B-4F-B6-62-6D

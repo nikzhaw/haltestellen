@@ -1,0 +1,2454 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_388dc7c1450b87d285a1d72cab648b39 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_388dc7c1450b87d285a1d72cab648b39" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_388dc7c1450b87d285a1d72cab648b39 = L.map(
+                "map_388dc7c1450b87d285a1d72cab648b39",
+                {
+                    center: [47.3744489, 8.5410422],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_18e7962dcd4643dd84908147728aeb18 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_388dc7c1450b87d285a1d72cab648b39);
+        
+    
+            var marker_cluster_ab93a884bccf45354938610d27ef4028 = L.markerClusterGroup(
+                {}
+            );
+            map_388dc7c1450b87d285a1d72cab648b39.addLayer(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var marker_a9818457e4823070a0582d6e190ed6fb = L.marker(
+                [47.39680416792342, 8.540960070092336],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_fcdf191dc002caf27361d043e3f13e91 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_a9818457e4823070a0582d6e190ed6fb.setIcon(icon_fcdf191dc002caf27361d043e3f13e91);
+        
+    
+        var popup_527ad51a9f74591cd8dca0a89e335cf5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0664dee1521df56ff93b694b22501fa1 = $(`<div id="html_0664dee1521df56ff93b694b22501fa1" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_527ad51a9f74591cd8dca0a89e335cf5.setContent(html_0664dee1521df56ff93b694b22501fa1);
+            
+        
+
+        marker_a9818457e4823070a0582d6e190ed6fb.bindPopup(popup_527ad51a9f74591cd8dca0a89e335cf5)
+        ;
+
+        
+    
+    
+            var marker_4fa182cf8fb472f264a48741bc8cbc6b = L.marker(
+                [47.38009492853077, 8.508990081570905],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_78dbc057db62425f89bfcafc7a8f986d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_4fa182cf8fb472f264a48741bc8cbc6b.setIcon(icon_78dbc057db62425f89bfcafc7a8f986d);
+        
+    
+        var popup_525e4e6557657bb75f142b41d32b3dd9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_647a50fbbf0e6de90469e9a08acd4dab = $(`<div id="html_647a50fbbf0e6de90469e9a08acd4dab" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_525e4e6557657bb75f142b41d32b3dd9.setContent(html_647a50fbbf0e6de90469e9a08acd4dab);
+            
+        
+
+        marker_4fa182cf8fb472f264a48741bc8cbc6b.bindPopup(popup_525e4e6557657bb75f142b41d32b3dd9)
+        ;
+
+        
+    
+    
+            var marker_ac6d32e692733a047b34e7f9a6f7a136 = L.marker(
+                [47.39350190358171, 8.539182986631408],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_d8a1aee4a03df98813d3f87451f82701 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_ac6d32e692733a047b34e7f9a6f7a136.setIcon(icon_d8a1aee4a03df98813d3f87451f82701);
+        
+    
+        var popup_a56de2d9e4148136dc2050061b75c274 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c4275e127c1fbe70e7af933e19028e9e = $(`<div id="html_c4275e127c1fbe70e7af933e19028e9e" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_a56de2d9e4148136dc2050061b75c274.setContent(html_c4275e127c1fbe70e7af933e19028e9e);
+            
+        
+
+        marker_ac6d32e692733a047b34e7f9a6f7a136.bindPopup(popup_a56de2d9e4148136dc2050061b75c274)
+        ;
+
+        
+    
+    
+            var marker_3802feabee143e0ecd406e3c39fdd6b5 = L.marker(
+                [47.347327511092814, 8.532777662426149],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_e87f65a4a62dbee1e009695fe0112619 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_3802feabee143e0ecd406e3c39fdd6b5.setIcon(icon_e87f65a4a62dbee1e009695fe0112619);
+        
+    
+        var popup_49091472b86dbd95890920d43948225d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_744caebf997c351b932158107eb986c4 = $(`<div id="html_744caebf997c351b932158107eb986c4" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_49091472b86dbd95890920d43948225d.setContent(html_744caebf997c351b932158107eb986c4);
+            
+        
+
+        marker_3802feabee143e0ecd406e3c39fdd6b5.bindPopup(popup_49091472b86dbd95890920d43948225d)
+        ;
+
+        
+    
+    
+            var marker_15107166340b08adad847c9692d39875 = L.marker(
+                [47.360294327266345, 8.523697490888182],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_2bcf78b354816d31d9f438f2284738c2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_15107166340b08adad847c9692d39875.setIcon(icon_2bcf78b354816d31d9f438f2284738c2);
+        
+    
+        var popup_8c088796af2a4c9bfecfb5927575a178 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_50c52467b0dc2347194ddaa2e76c25d9 = $(`<div id="html_50c52467b0dc2347194ddaa2e76c25d9" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_8c088796af2a4c9bfecfb5927575a178.setContent(html_50c52467b0dc2347194ddaa2e76c25d9);
+            
+        
+
+        marker_15107166340b08adad847c9692d39875.bindPopup(popup_8c088796af2a4c9bfecfb5927575a178)
+        ;
+
+        
+    
+    
+            var marker_68a8599d2b86fb8aa15d52a9ed25a27f = L.marker(
+                [47.37428899175369, 8.543818308416668],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_c5ea321791aca97a023ee4e92344000d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_68a8599d2b86fb8aa15d52a9ed25a27f.setIcon(icon_c5ea321791aca97a023ee4e92344000d);
+        
+    
+        var popup_40e3465bf4126387e8dbb14a75e11e12 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d6dad2b5a1ddd54988c1a492c5ec3808 = $(`<div id="html_d6dad2b5a1ddd54988c1a492c5ec3808" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_40e3465bf4126387e8dbb14a75e11e12.setContent(html_d6dad2b5a1ddd54988c1a492c5ec3808);
+            
+        
+
+        marker_68a8599d2b86fb8aa15d52a9ed25a27f.bindPopup(popup_40e3465bf4126387e8dbb14a75e11e12)
+        ;
+
+        
+    
+    
+            var marker_418282332495407b6d92c48582ca6fa5 = L.marker(
+                [47.35106298918885, 8.513357805619526],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_a7c30264b26d01fa17d68fc79639be3c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_418282332495407b6d92c48582ca6fa5.setIcon(icon_a7c30264b26d01fa17d68fc79639be3c);
+        
+    
+        var popup_c61c164690e3abbbb0d229276414e2e6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c9e830be4f13006a30075485cd64af17 = $(`<div id="html_c9e830be4f13006a30075485cd64af17" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_c61c164690e3abbbb0d229276414e2e6.setContent(html_c9e830be4f13006a30075485cd64af17);
+            
+        
+
+        marker_418282332495407b6d92c48582ca6fa5.bindPopup(popup_c61c164690e3abbbb0d229276414e2e6)
+        ;
+
+        
+    
+    
+            var marker_12ab6cd4f30a83f3cae611583571ce85 = L.marker(
+                [47.37881540658351, 8.509229251612332],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_87e3d0c65747af8a367c6c47e40976fc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_12ab6cd4f30a83f3cae611583571ce85.setIcon(icon_87e3d0c65747af8a367c6c47e40976fc);
+        
+    
+        var popup_9770dad6113db860b616e36fcf9fea53 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ce53c006f55ab794cc8492af06a34a23 = $(`<div id="html_ce53c006f55ab794cc8492af06a34a23" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_9770dad6113db860b616e36fcf9fea53.setContent(html_ce53c006f55ab794cc8492af06a34a23);
+            
+        
+
+        marker_12ab6cd4f30a83f3cae611583571ce85.bindPopup(popup_9770dad6113db860b616e36fcf9fea53)
+        ;
+
+        
+    
+    
+            var marker_9c195bdf0ca4d5c4a4c7b2fd01840e23 = L.marker(
+                [47.3666827091534, 8.542495580027584],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_1b9a916ca768332d167af252f19f93ac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_9c195bdf0ca4d5c4a4c7b2fd01840e23.setIcon(icon_1b9a916ca768332d167af252f19f93ac);
+        
+    
+        var popup_02459c63d8c0a40cda084b99b1b262cf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3a1739765ac30ac51147b799da784428 = $(`<div id="html_3a1739765ac30ac51147b799da784428" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_02459c63d8c0a40cda084b99b1b262cf.setContent(html_3a1739765ac30ac51147b799da784428);
+            
+        
+
+        marker_9c195bdf0ca4d5c4a4c7b2fd01840e23.bindPopup(popup_02459c63d8c0a40cda084b99b1b262cf)
+        ;
+
+        
+    
+    
+            var marker_23b2a401cdfb7aeb2ab67411745c335d = L.marker(
+                [47.36523248421267, 8.502442826610455],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_37842643a176dd76fb7f718c32e7aa5a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_23b2a401cdfb7aeb2ab67411745c335d.setIcon(icon_37842643a176dd76fb7f718c32e7aa5a);
+        
+    
+        var popup_14ed00b27b9618207863cda388efa6e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_399ea35089a8cc5738d60a614ab73280 = $(`<div id="html_399ea35089a8cc5738d60a614ab73280" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_14ed00b27b9618207863cda388efa6e1.setContent(html_399ea35089a8cc5738d60a614ab73280);
+            
+        
+
+        marker_23b2a401cdfb7aeb2ab67411745c335d.bindPopup(popup_14ed00b27b9618207863cda388efa6e1)
+        ;
+
+        
+    
+    
+            var marker_bd78c5fe1f98a2ca9aa65d064155d02d = L.marker(
+                [47.37246370451035, 8.5428006261092],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_f71ed378f47b515fca284bc6a45b54dd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_bd78c5fe1f98a2ca9aa65d064155d02d.setIcon(icon_f71ed378f47b515fca284bc6a45b54dd);
+        
+    
+        var popup_fc009c5b4704f8f2a92322250f3f8c40 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_436b86f9ba4d10c5b418a0b29eb19c35 = $(`<div id="html_436b86f9ba4d10c5b418a0b29eb19c35" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_fc009c5b4704f8f2a92322250f3f8c40.setContent(html_436b86f9ba4d10c5b418a0b29eb19c35);
+            
+        
+
+        marker_bd78c5fe1f98a2ca9aa65d064155d02d.bindPopup(popup_fc009c5b4704f8f2a92322250f3f8c40)
+        ;
+
+        
+    
+    
+            var marker_1e17a10c9497fdb884b92af7b98a715d = L.marker(
+                [47.38181172339007, 8.529326862367045],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_53bb0fc4ba9af2e877633009983d1146 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_1e17a10c9497fdb884b92af7b98a715d.setIcon(icon_53bb0fc4ba9af2e877633009983d1146);
+        
+    
+        var popup_4651b324921ea16a0a6bd7a10765276f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dccbd65496aba1697ca962a1812a3430 = $(`<div id="html_dccbd65496aba1697ca962a1812a3430" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_4651b324921ea16a0a6bd7a10765276f.setContent(html_dccbd65496aba1697ca962a1812a3430);
+            
+        
+
+        marker_1e17a10c9497fdb884b92af7b98a715d.bindPopup(popup_4651b324921ea16a0a6bd7a10765276f)
+        ;
+
+        
+    
+    
+            var marker_d15934bd454b8c23b50ee47139905ffc = L.marker(
+                [47.36604264898432, 8.560382385652483],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_657f5e210ab2ae581a0dbb6dd3492029 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_d15934bd454b8c23b50ee47139905ffc.setIcon(icon_657f5e210ab2ae581a0dbb6dd3492029);
+        
+    
+        var popup_df40e624a63b015b3dee778348007389 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_21a0586a37d82aecd1d1a31f3e8f6861 = $(`<div id="html_21a0586a37d82aecd1d1a31f3e8f6861" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_df40e624a63b015b3dee778348007389.setContent(html_21a0586a37d82aecd1d1a31f3e8f6861);
+            
+        
+
+        marker_d15934bd454b8c23b50ee47139905ffc.bindPopup(popup_df40e624a63b015b3dee778348007389)
+        ;
+
+        
+    
+    
+            var marker_cb2ccb08dc9602b9f29966ed244bc663 = L.marker(
+                [47.349242514500666, 8.56284829861982],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_8bfc224960bf5b7944b1a6cc9b4a7bcc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_cb2ccb08dc9602b9f29966ed244bc663.setIcon(icon_8bfc224960bf5b7944b1a6cc9b4a7bcc);
+        
+    
+        var popup_1cb309a836735eba1efe13b8e91c5b67 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2d5da04f71eb2cc9b92e4c690b8a3668 = $(`<div id="html_2d5da04f71eb2cc9b92e4c690b8a3668" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_1cb309a836735eba1efe13b8e91c5b67.setContent(html_2d5da04f71eb2cc9b92e4c690b8a3668);
+            
+        
+
+        marker_cb2ccb08dc9602b9f29966ed244bc663.bindPopup(popup_1cb309a836735eba1efe13b8e91c5b67)
+        ;
+
+        
+    
+    
+            var marker_87bef9a9cc7fb18e274852224a0403ea = L.marker(
+                [47.36087866998744, 8.517010786521768],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_ea2bda2bc4c6240555894aaaf4743d7f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_87bef9a9cc7fb18e274852224a0403ea.setIcon(icon_ea2bda2bc4c6240555894aaaf4743d7f);
+        
+    
+        var popup_88fd5dbf327b51dd61584db1701177f3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_41a66369cc672a1ce39f3784408dbb19 = $(`<div id="html_41a66369cc672a1ce39f3784408dbb19" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_88fd5dbf327b51dd61584db1701177f3.setContent(html_41a66369cc672a1ce39f3784408dbb19);
+            
+        
+
+        marker_87bef9a9cc7fb18e274852224a0403ea.bindPopup(popup_88fd5dbf327b51dd61584db1701177f3)
+        ;
+
+        
+    
+    
+            var marker_ea501dd89932793664f7c1b4faa0ed7e = L.marker(
+                [47.400165660318486, 8.503828954521968],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_db0b384b523858231798b1ed81da3d3b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_ea501dd89932793664f7c1b4faa0ed7e.setIcon(icon_db0b384b523858231798b1ed81da3d3b);
+        
+    
+        var popup_0eb8916b94f9de86a5b196722f8fcb13 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d57a03e69ee08ab639f30ff635a2ef0e = $(`<div id="html_d57a03e69ee08ab639f30ff635a2ef0e" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_0eb8916b94f9de86a5b196722f8fcb13.setContent(html_d57a03e69ee08ab639f30ff635a2ef0e);
+            
+        
+
+        marker_ea501dd89932793664f7c1b4faa0ed7e.bindPopup(popup_0eb8916b94f9de86a5b196722f8fcb13)
+        ;
+
+        
+    
+    
+            var marker_7db0619c2f43af6ee0bebb23a438ce95 = L.marker(
+                [47.37504886544645, 8.518634778726522],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_9f6821cd75370d3bbaf67dc78722cbce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_7db0619c2f43af6ee0bebb23a438ce95.setIcon(icon_9f6821cd75370d3bbaf67dc78722cbce);
+        
+    
+        var popup_ebf0364af50624f07bcdbc4c0cc07460 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6530f29e1cb1d26d4cab9f9b487a52b9 = $(`<div id="html_6530f29e1cb1d26d4cab9f9b487a52b9" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_ebf0364af50624f07bcdbc4c0cc07460.setContent(html_6530f29e1cb1d26d4cab9f9b487a52b9);
+            
+        
+
+        marker_7db0619c2f43af6ee0bebb23a438ce95.bindPopup(popup_ebf0364af50624f07bcdbc4c0cc07460)
+        ;
+
+        
+    
+    
+            var marker_bbf3813007e95a7be883cb662d66d570 = L.marker(
+                [47.40562283455972, 8.549993141981401],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_753e5e9bf51caa34bdb310fad5192104 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_bbf3813007e95a7be883cb662d66d570.setIcon(icon_753e5e9bf51caa34bdb310fad5192104);
+        
+    
+        var popup_897c7fc7ec86bd245d13c30ff8cb9c95 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_92bed87b8da156359085d6f5e4f7922d = $(`<div id="html_92bed87b8da156359085d6f5e4f7922d" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_897c7fc7ec86bd245d13c30ff8cb9c95.setContent(html_92bed87b8da156359085d6f5e4f7922d);
+            
+        
+
+        marker_bbf3813007e95a7be883cb662d66d570.bindPopup(popup_897c7fc7ec86bd245d13c30ff8cb9c95)
+        ;
+
+        
+    
+    
+            var marker_e6434036d4d4221e1011026a8690ce94 = L.marker(
+                [47.366151804052286, 8.540631035278514],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_be40c9cdaf037f18287b4ca7765d514c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_e6434036d4d4221e1011026a8690ce94.setIcon(icon_be40c9cdaf037f18287b4ca7765d514c);
+        
+    
+        var popup_269394d8cddb7ab864a4aa9f7de3abde = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8b172dd69c8837e7a7b099c4b4c8ed23 = $(`<div id="html_8b172dd69c8837e7a7b099c4b4c8ed23" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_269394d8cddb7ab864a4aa9f7de3abde.setContent(html_8b172dd69c8837e7a7b099c4b4c8ed23);
+            
+        
+
+        marker_e6434036d4d4221e1011026a8690ce94.bindPopup(popup_269394d8cddb7ab864a4aa9f7de3abde)
+        ;
+
+        
+    
+    
+            var marker_aa45578489841332d29d358653c480a8 = L.marker(
+                [47.37272463985207, 8.542792787735856],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_da43bd1b40d563442399b42d393c7ca1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_aa45578489841332d29d358653c480a8.setIcon(icon_da43bd1b40d563442399b42d393c7ca1);
+        
+    
+        var popup_91fd4ba07864716d36713cbe90772d0d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f60c2e0f277b2e4234d195bdac8aaed = $(`<div id="html_0f60c2e0f277b2e4234d195bdac8aaed" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_91fd4ba07864716d36713cbe90772d0d.setContent(html_0f60c2e0f277b2e4234d195bdac8aaed);
+            
+        
+
+        marker_aa45578489841332d29d358653c480a8.bindPopup(popup_91fd4ba07864716d36713cbe90772d0d)
+        ;
+
+        
+    
+    
+            var marker_9fd43a551b07bd1c01406a0d2d53484b = L.marker(
+                [47.38332379890878, 8.543436102189581],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_c3c2d07cd53c0fdd785432a8bf6a327d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_9fd43a551b07bd1c01406a0d2d53484b.setIcon(icon_c3c2d07cd53c0fdd785432a8bf6a327d);
+        
+    
+        var popup_eb39a28b39b2cbd927f2441b115bc3fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_845ebd501d1ec2cbad3391745ab003ad = $(`<div id="html_845ebd501d1ec2cbad3391745ab003ad" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_eb39a28b39b2cbd927f2441b115bc3fd.setContent(html_845ebd501d1ec2cbad3391745ab003ad);
+            
+        
+
+        marker_9fd43a551b07bd1c01406a0d2d53484b.bindPopup(popup_eb39a28b39b2cbd927f2441b115bc3fd)
+        ;
+
+        
+    
+    
+            var marker_c25e10f67611e858653a9ace47a7dc2c = L.marker(
+                [47.35933709375399, 8.592754097409069],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_7704535f65b7e46c1d7953f8259cc872 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_c25e10f67611e858653a9ace47a7dc2c.setIcon(icon_7704535f65b7e46c1d7953f8259cc872);
+        
+    
+        var popup_23d05b2108bd3ac26354a96feb748975 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c40e9c5ac7ee9c331086876955eb1470 = $(`<div id="html_c40e9c5ac7ee9c331086876955eb1470" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_23d05b2108bd3ac26354a96feb748975.setContent(html_c40e9c5ac7ee9c331086876955eb1470);
+            
+        
+
+        marker_c25e10f67611e858653a9ace47a7dc2c.bindPopup(popup_23d05b2108bd3ac26354a96feb748975)
+        ;
+
+        
+    
+    
+            var marker_d99ac517861b6e1c5b4187999b5c2f61 = L.marker(
+                [47.36562567059632, 8.549543630562408],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_17b50b4d14e022791ab2af78a1a8db0c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_d99ac517861b6e1c5b4187999b5c2f61.setIcon(icon_17b50b4d14e022791ab2af78a1a8db0c);
+        
+    
+        var popup_e75c1c943e57807c82280f6fbf43da40 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d28dd6a51410c419ab3372209b616dbc = $(`<div id="html_d28dd6a51410c419ab3372209b616dbc" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_e75c1c943e57807c82280f6fbf43da40.setContent(html_d28dd6a51410c419ab3372209b616dbc);
+            
+        
+
+        marker_d99ac517861b6e1c5b4187999b5c2f61.bindPopup(popup_e75c1c943e57807c82280f6fbf43da40)
+        ;
+
+        
+    
+    
+            var marker_13f3ca86e78c50999ff2878840516293 = L.marker(
+                [47.34330599660336, 8.519474449198345],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_7fcfcb265b283f5682b3ca33c7919e7c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_13f3ca86e78c50999ff2878840516293.setIcon(icon_7fcfcb265b283f5682b3ca33c7919e7c);
+        
+    
+        var popup_07c41b1bddbec7c8e58a0ce851f76133 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ac71026adf387c5cf6ffad476758e48d = $(`<div id="html_ac71026adf387c5cf6ffad476758e48d" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_07c41b1bddbec7c8e58a0ce851f76133.setContent(html_ac71026adf387c5cf6ffad476758e48d);
+            
+        
+
+        marker_13f3ca86e78c50999ff2878840516293.bindPopup(popup_07c41b1bddbec7c8e58a0ce851f76133)
+        ;
+
+        
+    
+    
+            var marker_0c1208eb6a8564595b8646aff0c21982 = L.marker(
+                [47.36173609445888, 8.52246916016798],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_99423fda6c5848e77c3c65e3e2a26466 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_0c1208eb6a8564595b8646aff0c21982.setIcon(icon_99423fda6c5848e77c3c65e3e2a26466);
+        
+    
+        var popup_69b8058e413a2b3107f16e0961129303 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4ba8e83c43394ac003a2effd15d0dac1 = $(`<div id="html_4ba8e83c43394ac003a2effd15d0dac1" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_69b8058e413a2b3107f16e0961129303.setContent(html_4ba8e83c43394ac003a2effd15d0dac1);
+            
+        
+
+        marker_0c1208eb6a8564595b8646aff0c21982.bindPopup(popup_69b8058e413a2b3107f16e0961129303)
+        ;
+
+        
+    
+    
+            var marker_94ec911f1a5b77710e5ed1259b9c2311 = L.marker(
+                [47.399225561067546, 8.542666135674487],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_d7141dfc1e833d7a431759ca0ad79a9e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_94ec911f1a5b77710e5ed1259b9c2311.setIcon(icon_d7141dfc1e833d7a431759ca0ad79a9e);
+        
+    
+        var popup_da996e2f69b22068b95d929ad0848732 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e7fb2d95b94a37ad8e946fcbace743ee = $(`<div id="html_e7fb2d95b94a37ad8e946fcbace743ee" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_da996e2f69b22068b95d929ad0848732.setContent(html_e7fb2d95b94a37ad8e946fcbace743ee);
+            
+        
+
+        marker_94ec911f1a5b77710e5ed1259b9c2311.bindPopup(popup_da996e2f69b22068b95d929ad0848732)
+        ;
+
+        
+    
+    
+            var marker_fc5fdb747863eefd9ebda4db4ff92aa2 = L.marker(
+                [47.41150351978152, 8.525614782369248],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_89971aeae2fa73634e119c35a85d53e6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_fc5fdb747863eefd9ebda4db4ff92aa2.setIcon(icon_89971aeae2fa73634e119c35a85d53e6);
+        
+    
+        var popup_824f844fb6bba7bd4683f85ebfee1a51 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9c68052e9cff11e06b2d7e9a83779057 = $(`<div id="html_9c68052e9cff11e06b2d7e9a83779057" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_824f844fb6bba7bd4683f85ebfee1a51.setContent(html_9c68052e9cff11e06b2d7e9a83779057);
+            
+        
+
+        marker_fc5fdb747863eefd9ebda4db4ff92aa2.bindPopup(popup_824f844fb6bba7bd4683f85ebfee1a51)
+        ;
+
+        
+    
+    
+            var marker_47012eea61c92da2d5dee47c91b91f18 = L.marker(
+                [47.39672856595978, 8.48622102005406],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_f2b6224e0ae1a182bcc497c8f827b157 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_47012eea61c92da2d5dee47c91b91f18.setIcon(icon_f2b6224e0ae1a182bcc497c8f827b157);
+        
+    
+        var popup_5c8d17643881422c9d56e79e4b9f5742 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b3b53fb9bc0efd643083415184362943 = $(`<div id="html_b3b53fb9bc0efd643083415184362943" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_5c8d17643881422c9d56e79e4b9f5742.setContent(html_b3b53fb9bc0efd643083415184362943);
+            
+        
+
+        marker_47012eea61c92da2d5dee47c91b91f18.bindPopup(popup_5c8d17643881422c9d56e79e4b9f5742)
+        ;
+
+        
+    
+    
+            var marker_f34c2b15fa7cc129b1c84f68ab110c8d = L.marker(
+                [47.390505334848775, 8.52791524748716],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_9db201cde4cb6b9a8f1f5dfc16842af8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_f34c2b15fa7cc129b1c84f68ab110c8d.setIcon(icon_9db201cde4cb6b9a8f1f5dfc16842af8);
+        
+    
+        var popup_bf68e048a00483e64eb717317e4d9151 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_73b6de9b612e2eca46c336efb5bcea0a = $(`<div id="html_73b6de9b612e2eca46c336efb5bcea0a" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_bf68e048a00483e64eb717317e4d9151.setContent(html_73b6de9b612e2eca46c336efb5bcea0a);
+            
+        
+
+        marker_f34c2b15fa7cc129b1c84f68ab110c8d.bindPopup(popup_bf68e048a00483e64eb717317e4d9151)
+        ;
+
+        
+    
+    
+            var marker_0eef6893e348a8c4b4785fbbae123d0b = L.marker(
+                [47.42615605708933, 8.50145912530681],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_74bfadc3628a040f7d0b3a2cee0eb42c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_0eef6893e348a8c4b4785fbbae123d0b.setIcon(icon_74bfadc3628a040f7d0b3a2cee0eb42c);
+        
+    
+        var popup_dd860616d55d89f42136c93c76f9dc02 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_368d52612c60c62b82a8359a67ddf793 = $(`<div id="html_368d52612c60c62b82a8359a67ddf793" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_dd860616d55d89f42136c93c76f9dc02.setContent(html_368d52612c60c62b82a8359a67ddf793);
+            
+        
+
+        marker_0eef6893e348a8c4b4785fbbae123d0b.bindPopup(popup_dd860616d55d89f42136c93c76f9dc02)
+        ;
+
+        
+    
+    
+            var marker_849d6e2fae778dec3afb654b29e68cf8 = L.marker(
+                [47.37838084662049, 8.496838669514492],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_3bc13b58ef9a43299195e3b17dadc7ba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_849d6e2fae778dec3afb654b29e68cf8.setIcon(icon_3bc13b58ef9a43299195e3b17dadc7ba);
+        
+    
+        var popup_f1ffca4349f07806ef2d02d6e2fafad5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_efa9c56365be379b91982407a25f8c9f = $(`<div id="html_efa9c56365be379b91982407a25f8c9f" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_f1ffca4349f07806ef2d02d6e2fafad5.setContent(html_efa9c56365be379b91982407a25f8c9f);
+            
+        
+
+        marker_849d6e2fae778dec3afb654b29e68cf8.bindPopup(popup_f1ffca4349f07806ef2d02d6e2fafad5)
+        ;
+
+        
+    
+    
+            var marker_0a31de6764e45b991bcaf2a0b8663b46 = L.marker(
+                [47.3861977800495, 8.51821164348916],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_e0ea7918bfc73dd93b310f87cc93303c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_0a31de6764e45b991bcaf2a0b8663b46.setIcon(icon_e0ea7918bfc73dd93b310f87cc93303c);
+        
+    
+        var popup_f1f1bd28800f045659eab7eca7e78c80 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c3ecc568422c4b9d4e6a22d81eb6a46c = $(`<div id="html_c3ecc568422c4b9d4e6a22d81eb6a46c" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_f1f1bd28800f045659eab7eca7e78c80.setContent(html_c3ecc568422c4b9d4e6a22d81eb6a46c);
+            
+        
+
+        marker_0a31de6764e45b991bcaf2a0b8663b46.bindPopup(popup_f1f1bd28800f045659eab7eca7e78c80)
+        ;
+
+        
+    
+    
+            var marker_46c264e859caba239269dce2eb569f3e = L.marker(
+                [47.34381799471896, 8.510869437353028],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_8d1e23038a0968ac5cf51d1ce152c983 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_46c264e859caba239269dce2eb569f3e.setIcon(icon_8d1e23038a0968ac5cf51d1ce152c983);
+        
+    
+        var popup_8053f0c85b12c4b8417dd2ac71e51748 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db31abd3036d2b7cf271fd4ffa28fe93 = $(`<div id="html_db31abd3036d2b7cf271fd4ffa28fe93" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_8053f0c85b12c4b8417dd2ac71e51748.setContent(html_db31abd3036d2b7cf271fd4ffa28fe93);
+            
+        
+
+        marker_46c264e859caba239269dce2eb569f3e.bindPopup(popup_8053f0c85b12c4b8417dd2ac71e51748)
+        ;
+
+        
+    
+    
+            var marker_ceb05eac637a50106cc4d5a3539bc54f = L.marker(
+                [47.375262924846034, 8.560364480678553],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_302bb0c2c09d00dd00ee0dd938e504d3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_ceb05eac637a50106cc4d5a3539bc54f.setIcon(icon_302bb0c2c09d00dd00ee0dd938e504d3);
+        
+    
+        var popup_bede55d9fc5c8b6e94d3fe91df5383fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0345a9f04e6127ac04a8e3d7de0713ef = $(`<div id="html_0345a9f04e6127ac04a8e3d7de0713ef" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_bede55d9fc5c8b6e94d3fe91df5383fa.setContent(html_0345a9f04e6127ac04a8e3d7de0713ef);
+            
+        
+
+        marker_ceb05eac637a50106cc4d5a3539bc54f.bindPopup(popup_bede55d9fc5c8b6e94d3fe91df5383fa)
+        ;
+
+        
+    
+    
+            var marker_6b3cdc93ca21d3ed92eae552170514d8 = L.marker(
+                [47.36671651777926, 8.541781329082621],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_c24d7c5aa7de99b2f944077f188f7619 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_6b3cdc93ca21d3ed92eae552170514d8.setIcon(icon_c24d7c5aa7de99b2f944077f188f7619);
+        
+    
+        var popup_69e6fe9947433e77e7a6662614ef7f54 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9add03011a992b757ea9b78533910612 = $(`<div id="html_9add03011a992b757ea9b78533910612" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_69e6fe9947433e77e7a6662614ef7f54.setContent(html_9add03011a992b757ea9b78533910612);
+            
+        
+
+        marker_6b3cdc93ca21d3ed92eae552170514d8.bindPopup(popup_69e6fe9947433e77e7a6662614ef7f54)
+        ;
+
+        
+    
+    
+            var marker_fb88a399cc5255ab5e6c7390bc9a47ed = L.marker(
+                [47.39101031459558, 8.515302307170602],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_700a32f9edf91aabfd6b0b4486a0a7d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_fb88a399cc5255ab5e6c7390bc9a47ed.setIcon(icon_700a32f9edf91aabfd6b0b4486a0a7d0);
+        
+    
+        var popup_e54b20ce83fe8ddc29e20af72f8d00f2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0137cce96175e3f7b59fa6b37e79d108 = $(`<div id="html_0137cce96175e3f7b59fa6b37e79d108" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_e54b20ce83fe8ddc29e20af72f8d00f2.setContent(html_0137cce96175e3f7b59fa6b37e79d108);
+            
+        
+
+        marker_fb88a399cc5255ab5e6c7390bc9a47ed.bindPopup(popup_e54b20ce83fe8ddc29e20af72f8d00f2)
+        ;
+
+        
+    
+    
+            var marker_660b62e0e6f92051e3df3d2e0c535f14 = L.marker(
+                [47.42428088616828, 8.54318534959887],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_969168fc9c48a4ebc88ba93a10609db8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_660b62e0e6f92051e3df3d2e0c535f14.setIcon(icon_969168fc9c48a4ebc88ba93a10609db8);
+        
+    
+        var popup_45918f3fe8b263f998628e145abffc7f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_82bcc9c77e1e04cce9cfe0128294a1cd = $(`<div id="html_82bcc9c77e1e04cce9cfe0128294a1cd" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_45918f3fe8b263f998628e145abffc7f.setContent(html_82bcc9c77e1e04cce9cfe0128294a1cd);
+            
+        
+
+        marker_660b62e0e6f92051e3df3d2e0c535f14.bindPopup(popup_45918f3fe8b263f998628e145abffc7f)
+        ;
+
+        
+    
+    
+            var marker_27395e7a933e49ceadbc778a60b2911f = L.marker(
+                [47.379699175370455, 8.515762541994],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_d45b2fa716dbffbf387bd30ea1ebf0a8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_27395e7a933e49ceadbc778a60b2911f.setIcon(icon_d45b2fa716dbffbf387bd30ea1ebf0a8);
+        
+    
+        var popup_426402b592d8bb8e9570f9f67d0552e7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_69e9f666d7332a55f21d77c3b0a7e6aa = $(`<div id="html_69e9f666d7332a55f21d77c3b0a7e6aa" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_426402b592d8bb8e9570f9f67d0552e7.setContent(html_69e9f666d7332a55f21d77c3b0a7e6aa);
+            
+        
+
+        marker_27395e7a933e49ceadbc778a60b2911f.bindPopup(popup_426402b592d8bb8e9570f9f67d0552e7)
+        ;
+
+        
+    
+    
+            var marker_394d12a317f405aeca097c20bcd53a22 = L.marker(
+                [47.36509730737117, 8.534227849052051],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_7464a3d3d4a7defcb593a0fc21095135 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_394d12a317f405aeca097c20bcd53a22.setIcon(icon_7464a3d3d4a7defcb593a0fc21095135);
+        
+    
+        var popup_f65d0af3b15f8f8817681bd03b948fe9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ea0c4afdd1d91b4345b0f42dbb92bdee = $(`<div id="html_ea0c4afdd1d91b4345b0f42dbb92bdee" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_f65d0af3b15f8f8817681bd03b948fe9.setContent(html_ea0c4afdd1d91b4345b0f42dbb92bdee);
+            
+        
+
+        marker_394d12a317f405aeca097c20bcd53a22.bindPopup(popup_f65d0af3b15f8f8817681bd03b948fe9)
+        ;
+
+        
+    
+    
+            var marker_2996b96d8b5c709623a777e680cf1494 = L.marker(
+                [47.37173048828871, 8.519507686078601],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_dc01f3f5aaea8ea8dd19caffd0d7a887 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_2996b96d8b5c709623a777e680cf1494.setIcon(icon_dc01f3f5aaea8ea8dd19caffd0d7a887);
+        
+    
+        var popup_5ab399c3848242f1c0382995946291c1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2a5c10b801c4ac008ec33163343f9d27 = $(`<div id="html_2a5c10b801c4ac008ec33163343f9d27" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_5ab399c3848242f1c0382995946291c1.setContent(html_2a5c10b801c4ac008ec33163343f9d27);
+            
+        
+
+        marker_2996b96d8b5c709623a777e680cf1494.bindPopup(popup_5ab399c3848242f1c0382995946291c1)
+        ;
+
+        
+    
+    
+            var marker_c256e2b2c61d8f5ae34f932f3956347f = L.marker(
+                [47.38219911420681, 8.545346374324987],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_33c42c382f598107ada23e1c8049be48 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_c256e2b2c61d8f5ae34f932f3956347f.setIcon(icon_33c42c382f598107ada23e1c8049be48);
+        
+    
+        var popup_c539975c00e0eadd6a8e747ae9e3f4e6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0cf6e9c4b2b4da37f36c9362af81a2d7 = $(`<div id="html_0cf6e9c4b2b4da37f36c9362af81a2d7" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_c539975c00e0eadd6a8e747ae9e3f4e6.setContent(html_0cf6e9c4b2b4da37f36c9362af81a2d7);
+            
+        
+
+        marker_c256e2b2c61d8f5ae34f932f3956347f.bindPopup(popup_c539975c00e0eadd6a8e747ae9e3f4e6)
+        ;
+
+        
+    
+    
+            var marker_143f33c119a377c9f8d8e3fb8ea7fca3 = L.marker(
+                [47.37790583648868, 8.54185391333995],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_3a3bc7a83d86b09f45b4933480481a18 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_143f33c119a377c9f8d8e3fb8ea7fca3.setIcon(icon_3a3bc7a83d86b09f45b4933480481a18);
+        
+    
+        var popup_1a487bf1eee8a1e5a175997f88ddd44f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d0dcd2d5d2f75ed47599bf3167a32a6 = $(`<div id="html_5d0dcd2d5d2f75ed47599bf3167a32a6" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_1a487bf1eee8a1e5a175997f88ddd44f.setContent(html_5d0dcd2d5d2f75ed47599bf3167a32a6);
+            
+        
+
+        marker_143f33c119a377c9f8d8e3fb8ea7fca3.bindPopup(popup_1a487bf1eee8a1e5a175997f88ddd44f)
+        ;
+
+        
+    
+    
+            var marker_6f2ae71a5dc352a1390370f4335f52f8 = L.marker(
+                [47.38223223069645, 8.53716246747966],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_1e8716dd2d1cc1cbaab7dccb8d132e97 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_6f2ae71a5dc352a1390370f4335f52f8.setIcon(icon_1e8716dd2d1cc1cbaab7dccb8d132e97);
+        
+    
+        var popup_e6cd5b5bdedb304b4ddf2d4e0aee0b1f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e450a0446edeefb87f244feaa581713e = $(`<div id="html_e450a0446edeefb87f244feaa581713e" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_e6cd5b5bdedb304b4ddf2d4e0aee0b1f.setContent(html_e450a0446edeefb87f244feaa581713e);
+            
+        
+
+        marker_6f2ae71a5dc352a1390370f4335f52f8.bindPopup(popup_e6cd5b5bdedb304b4ddf2d4e0aee0b1f)
+        ;
+
+        
+    
+    
+            var marker_00426888a675275ed57e39106d3a9dd0 = L.marker(
+                [47.36764918363605, 8.534518594042884],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_0b45d06f50c6f03bda489c426987c43e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_00426888a675275ed57e39106d3a9dd0.setIcon(icon_0b45d06f50c6f03bda489c426987c43e);
+        
+    
+        var popup_e628820b3e1dfd951bc5c110fd5065b3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_477e8a35129917ac2457920eb2bd8755 = $(`<div id="html_477e8a35129917ac2457920eb2bd8755" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_e628820b3e1dfd951bc5c110fd5065b3.setContent(html_477e8a35129917ac2457920eb2bd8755);
+            
+        
+
+        marker_00426888a675275ed57e39106d3a9dd0.bindPopup(popup_e628820b3e1dfd951bc5c110fd5065b3)
+        ;
+
+        
+    
+    
+            var marker_3d46e81ee3dca9d4eefa6d472a547ba6 = L.marker(
+                [47.37375327825956, 8.515774855340469],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_d8a3faba9d7a8dcc889d51f280c9fcf1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_3d46e81ee3dca9d4eefa6d472a547ba6.setIcon(icon_d8a3faba9d7a8dcc889d51f280c9fcf1);
+        
+    
+        var popup_6da4b2f6324ef18231e66de6d5ce5cd4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_55448d26c50606536cd734c959eae882 = $(`<div id="html_55448d26c50606536cd734c959eae882" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_6da4b2f6324ef18231e66de6d5ce5cd4.setContent(html_55448d26c50606536cd734c959eae882);
+            
+        
+
+        marker_3d46e81ee3dca9d4eefa6d472a547ba6.bindPopup(popup_6da4b2f6324ef18231e66de6d5ce5cd4)
+        ;
+
+        
+    
+    
+            var marker_922e49e28579129e91bd8abf47a9ffb9 = L.marker(
+                [47.40556013612977, 8.54996533552183],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_3831ae366fbe00f35de7aa3dd94df243 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_922e49e28579129e91bd8abf47a9ffb9.setIcon(icon_3831ae366fbe00f35de7aa3dd94df243);
+        
+    
+        var popup_7990f9ef889eb306e4b189f72ccdc0de = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6aa27f9c4b8cdbb17480071f2a4dc052 = $(`<div id="html_6aa27f9c4b8cdbb17480071f2a4dc052" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_7990f9ef889eb306e4b189f72ccdc0de.setContent(html_6aa27f9c4b8cdbb17480071f2a4dc052);
+            
+        
+
+        marker_922e49e28579129e91bd8abf47a9ffb9.bindPopup(popup_7990f9ef889eb306e4b189f72ccdc0de)
+        ;
+
+        
+    
+    
+            var marker_c411bccb4711908393e98e745d3cd493 = L.marker(
+                [47.3798972792581, 8.511873092839851],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_5e09156568c93ae97e0390f0d177eb99 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_c411bccb4711908393e98e745d3cd493.setIcon(icon_5e09156568c93ae97e0390f0d177eb99);
+        
+    
+        var popup_87581e7e21ac5c0b730943558355965f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_737cb014627965c8f27916a98af91898 = $(`<div id="html_737cb014627965c8f27916a98af91898" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_87581e7e21ac5c0b730943558355965f.setContent(html_737cb014627965c8f27916a98af91898);
+            
+        
+
+        marker_c411bccb4711908393e98e745d3cd493.bindPopup(popup_87581e7e21ac5c0b730943558355965f)
+        ;
+
+        
+    
+    
+            var marker_1ed99b4abb8feb873fbad4805b18afec = L.marker(
+                [47.40536676529739, 8.503614922214942],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_c4b37c46b2432f242d5e5cda082c0672 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_1ed99b4abb8feb873fbad4805b18afec.setIcon(icon_c4b37c46b2432f242d5e5cda082c0672);
+        
+    
+        var popup_1219e758f9837e9bb8553ab83acfebe1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a963d793d92d4e25f86ffb8c25a67bf5 = $(`<div id="html_a963d793d92d4e25f86ffb8c25a67bf5" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_1219e758f9837e9bb8553ab83acfebe1.setContent(html_a963d793d92d4e25f86ffb8c25a67bf5);
+            
+        
+
+        marker_1ed99b4abb8feb873fbad4805b18afec.bindPopup(popup_1219e758f9837e9bb8553ab83acfebe1)
+        ;
+
+        
+    
+    
+            var marker_422c093bd36b5e088a5cd7686c734a9a = L.marker(
+                [47.39217681805495, 8.517537964022658],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_d7ec1b2fbcb782eeb90949233eb98867 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_422c093bd36b5e088a5cd7686c734a9a.setIcon(icon_d7ec1b2fbcb782eeb90949233eb98867);
+        
+    
+        var popup_1bb846f26d224a2d967337259b606b36 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c1d4fcfc0ca3e69aeec8ef450c95b1d7 = $(`<div id="html_c1d4fcfc0ca3e69aeec8ef450c95b1d7" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_1bb846f26d224a2d967337259b606b36.setContent(html_c1d4fcfc0ca3e69aeec8ef450c95b1d7);
+            
+        
+
+        marker_422c093bd36b5e088a5cd7686c734a9a.bindPopup(popup_1bb846f26d224a2d967337259b606b36)
+        ;
+
+        
+    
+    
+            var marker_923558066547143353046ea01cdf6b17 = L.marker(
+                [47.38124859114289, 8.517449264779202],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_97f67edd89627795c9b70c492b7adefd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_923558066547143353046ea01cdf6b17.setIcon(icon_97f67edd89627795c9b70c492b7adefd);
+        
+    
+        var popup_16af4dee852f7b84df6bda74f16de5b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f9bd62f5988aca5ddd1085b8d2edb4fb = $(`<div id="html_f9bd62f5988aca5ddd1085b8d2edb4fb" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_16af4dee852f7b84df6bda74f16de5b9.setContent(html_f9bd62f5988aca5ddd1085b8d2edb4fb);
+            
+        
+
+        marker_923558066547143353046ea01cdf6b17.bindPopup(popup_16af4dee852f7b84df6bda74f16de5b9)
+        ;
+
+        
+    
+    
+            var marker_f51b5dbf240c98e5985e270b55037af9 = L.marker(
+                [47.36504144491408, 8.53157882372843],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_d4c1709664085c9420aa93628c6d976d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_f51b5dbf240c98e5985e270b55037af9.setIcon(icon_d4c1709664085c9420aa93628c6d976d);
+        
+    
+        var popup_f94848fdfbe4180c2bb04b3e71385a6b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_49583a903a77e25110ddd4ea5e84bb11 = $(`<div id="html_49583a903a77e25110ddd4ea5e84bb11" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_f94848fdfbe4180c2bb04b3e71385a6b.setContent(html_49583a903a77e25110ddd4ea5e84bb11);
+            
+        
+
+        marker_f51b5dbf240c98e5985e270b55037af9.bindPopup(popup_f94848fdfbe4180c2bb04b3e71385a6b)
+        ;
+
+        
+    
+    
+            var marker_6225099dfaefad78694d0a942706b56a = L.marker(
+                [47.355042881741625, 8.523511248638792],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_3f2027f242e434267613d9dd5dcc11ae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_6225099dfaefad78694d0a942706b56a.setIcon(icon_3f2027f242e434267613d9dd5dcc11ae);
+        
+    
+        var popup_09edbd6441384a67ea9c00c64cb9421b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0fbe6f01ecb42a99fe8d8a97f54306d0 = $(`<div id="html_0fbe6f01ecb42a99fe8d8a97f54306d0" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_09edbd6441384a67ea9c00c64cb9421b.setContent(html_0fbe6f01ecb42a99fe8d8a97f54306d0);
+            
+        
+
+        marker_6225099dfaefad78694d0a942706b56a.bindPopup(popup_09edbd6441384a67ea9c00c64cb9421b)
+        ;
+
+        
+    
+    
+            var marker_998e3af44f6851fef800a27ff6667a7d = L.marker(
+                [47.37144080711929, 8.527366941521963],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_6ace271063213af5d40196e727a7af78 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_998e3af44f6851fef800a27ff6667a7d.setIcon(icon_6ace271063213af5d40196e727a7af78);
+        
+    
+        var popup_69438e9e48090bd62db8225af5dcb966 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c4b3c2509bc1b8582e4700368413f8ff = $(`<div id="html_c4b3c2509bc1b8582e4700368413f8ff" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_69438e9e48090bd62db8225af5dcb966.setContent(html_c4b3c2509bc1b8582e4700368413f8ff);
+            
+        
+
+        marker_998e3af44f6851fef800a27ff6667a7d.bindPopup(popup_69438e9e48090bd62db8225af5dcb966)
+        ;
+
+        
+    
+    
+            var marker_722ea5357cb97257747de1a0a2991f26 = L.marker(
+                [47.3791242745071, 8.522412082963548],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_786bccbd985dc8a195927af1aa066456 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_722ea5357cb97257747de1a0a2991f26.setIcon(icon_786bccbd985dc8a195927af1aa066456);
+        
+    
+        var popup_3a89af3f23c79ca8cc02ef8a67cb961c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_752ee8cc99e2428d86223a9083e60e5a = $(`<div id="html_752ee8cc99e2428d86223a9083e60e5a" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_3a89af3f23c79ca8cc02ef8a67cb961c.setContent(html_752ee8cc99e2428d86223a9083e60e5a);
+            
+        
+
+        marker_722ea5357cb97257747de1a0a2991f26.bindPopup(popup_3a89af3f23c79ca8cc02ef8a67cb961c)
+        ;
+
+        
+    
+    
+            var marker_5eee9bf630216765e7b95b4a8e15d9d2 = L.marker(
+                [47.38356543456033, 8.540739330621214],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_48049bfb5d6dae533699d2f45ed1dc5d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_5eee9bf630216765e7b95b4a8e15d9d2.setIcon(icon_48049bfb5d6dae533699d2f45ed1dc5d);
+        
+    
+        var popup_8d5c275e9eb8add47b97ab4e87f939f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_10835eba7419aac41611fd3053e51a35 = $(`<div id="html_10835eba7419aac41611fd3053e51a35" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_8d5c275e9eb8add47b97ab4e87f939f9.setContent(html_10835eba7419aac41611fd3053e51a35);
+            
+        
+
+        marker_5eee9bf630216765e7b95b4a8e15d9d2.bindPopup(popup_8d5c275e9eb8add47b97ab4e87f939f9)
+        ;
+
+        
+    
+    
+            var marker_1be3854776bf78da2dcb993ec96351eb = L.marker(
+                [47.40444747246666, 8.594631963795143],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_37ec92779845e3fdd610b4f078046d99 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_1be3854776bf78da2dcb993ec96351eb.setIcon(icon_37ec92779845e3fdd610b4f078046d99);
+        
+    
+        var popup_505abc3bac45003ab23ba93c3f133825 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_68f994da32f19c17dd7126bdcc4f7019 = $(`<div id="html_68f994da32f19c17dd7126bdcc4f7019" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_505abc3bac45003ab23ba93c3f133825.setContent(html_68f994da32f19c17dd7126bdcc4f7019);
+            
+        
+
+        marker_1be3854776bf78da2dcb993ec96351eb.bindPopup(popup_505abc3bac45003ab23ba93c3f133825)
+        ;
+
+        
+    
+    
+            var marker_0e0c036a40660aacbc6d1a6e98a76f75 = L.marker(
+                [47.36751335638908, 8.494041256412569],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_da3f9a72b9f9d0d8074fd6f589582131 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_0e0c036a40660aacbc6d1a6e98a76f75.setIcon(icon_da3f9a72b9f9d0d8074fd6f589582131);
+        
+    
+        var popup_625d947cdb185e635a8f77bf1915bba4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9629c11167d62bc4b726056349873a8a = $(`<div id="html_9629c11167d62bc4b726056349873a8a" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_625d947cdb185e635a8f77bf1915bba4.setContent(html_9629c11167d62bc4b726056349873a8a);
+            
+        
+
+        marker_0e0c036a40660aacbc6d1a6e98a76f75.bindPopup(popup_625d947cdb185e635a8f77bf1915bba4)
+        ;
+
+        
+    
+    
+            var marker_b7df08797edd6964c590f41447929db3 = L.marker(
+                [47.39343248569251, 8.524650208925328],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_e0f7ce41493f8b0ead03ecb28bafb9f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_b7df08797edd6964c590f41447929db3.setIcon(icon_e0f7ce41493f8b0ead03ecb28bafb9f9);
+        
+    
+        var popup_f05673147919d3d51f0791c690792de6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f271852646ec2ae0f98d998a6973d80 = $(`<div id="html_0f271852646ec2ae0f98d998a6973d80" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_f05673147919d3d51f0791c690792de6.setContent(html_0f271852646ec2ae0f98d998a6973d80);
+            
+        
+
+        marker_b7df08797edd6964c590f41447929db3.bindPopup(popup_f05673147919d3d51f0791c690792de6)
+        ;
+
+        
+    
+    
+            var marker_2377b52c4af5e4feb592141b86e7ecf1 = L.marker(
+                [47.37703051225887, 8.524104273928446],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_e0a0ca3e5048dd7a763ee093310f521e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_2377b52c4af5e4feb592141b86e7ecf1.setIcon(icon_e0a0ca3e5048dd7a763ee093310f521e);
+        
+    
+        var popup_a32aa58d6302a94f8e63af3e00b0639d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_47e749eba6fd80d7ab05a51f23f80142 = $(`<div id="html_47e749eba6fd80d7ab05a51f23f80142" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_a32aa58d6302a94f8e63af3e00b0639d.setContent(html_47e749eba6fd80d7ab05a51f23f80142);
+            
+        
+
+        marker_2377b52c4af5e4feb592141b86e7ecf1.bindPopup(popup_a32aa58d6302a94f8e63af3e00b0639d)
+        ;
+
+        
+    
+    
+            var marker_ffe0494c522de6f39ca092390afb3b37 = L.marker(
+                [47.371273131800656, 8.52511256191678],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_c9138cf850d7fb3735dba37919c057bd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_ffe0494c522de6f39ca092390afb3b37.setIcon(icon_c9138cf850d7fb3735dba37919c057bd);
+        
+    
+        var popup_baa2150d7f1ae4c591294b25d11e7aa0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_38c9f6b27281619f58b5ffd4a4d35a4d = $(`<div id="html_38c9f6b27281619f58b5ffd4a4d35a4d" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_baa2150d7f1ae4c591294b25d11e7aa0.setContent(html_38c9f6b27281619f58b5ffd4a4d35a4d);
+            
+        
+
+        marker_ffe0494c522de6f39ca092390afb3b37.bindPopup(popup_baa2150d7f1ae4c591294b25d11e7aa0)
+        ;
+
+        
+    
+    
+            var marker_371ff92bcd7a91c9afe9952f5577b97e = L.marker(
+                [47.40982249052516, 8.538817759756453],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_c2924b9854bccbf339963c78cb82029a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_371ff92bcd7a91c9afe9952f5577b97e.setIcon(icon_c2924b9854bccbf339963c78cb82029a);
+        
+    
+        var popup_782f0c09af99d1de39dbbdb0d6867c8f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5768f73fb88f2c6b2860d4c1980389e2 = $(`<div id="html_5768f73fb88f2c6b2860d4c1980389e2" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_782f0c09af99d1de39dbbdb0d6867c8f.setContent(html_5768f73fb88f2c6b2860d4c1980389e2);
+            
+        
+
+        marker_371ff92bcd7a91c9afe9952f5577b97e.bindPopup(popup_782f0c09af99d1de39dbbdb0d6867c8f)
+        ;
+
+        
+    
+    
+            var marker_5fbe36ef95bf6289daec04ab28d83d8f = L.marker(
+                [47.38974902511946, 8.512614492543417],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_ebba3cb417a9df25af821751e7b5a014 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_5fbe36ef95bf6289daec04ab28d83d8f.setIcon(icon_ebba3cb417a9df25af821751e7b5a014);
+        
+    
+        var popup_284b45316150ecde27ec55394117b060 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_809429dcc71956aee737be35c44d2dd0 = $(`<div id="html_809429dcc71956aee737be35c44d2dd0" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_284b45316150ecde27ec55394117b060.setContent(html_809429dcc71956aee737be35c44d2dd0);
+            
+        
+
+        marker_5fbe36ef95bf6289daec04ab28d83d8f.bindPopup(popup_284b45316150ecde27ec55394117b060)
+        ;
+
+        
+    
+    
+            var marker_b74fe4f2663c68ba4ab086e5dca42649 = L.marker(
+                [47.40435375502855, 8.57230487996089],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_381c724b35b083987d90c73147eb6ed1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_b74fe4f2663c68ba4ab086e5dca42649.setIcon(icon_381c724b35b083987d90c73147eb6ed1);
+        
+    
+        var popup_e7cc6f1e762c5abeafc6fa1b7ef31c3c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8990257b21c0b0f71f1291466eee764a = $(`<div id="html_8990257b21c0b0f71f1291466eee764a" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_e7cc6f1e762c5abeafc6fa1b7ef31c3c.setContent(html_8990257b21c0b0f71f1291466eee764a);
+            
+        
+
+        marker_b74fe4f2663c68ba4ab086e5dca42649.bindPopup(popup_e7cc6f1e762c5abeafc6fa1b7ef31c3c)
+        ;
+
+        
+    
+    
+            var marker_7ccb7d79c95782af414993c4e6c31067 = L.marker(
+                [47.399216820749565, 8.542639458824073],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_b3e3a69474cdcabed17792043d7e3ae6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_7ccb7d79c95782af414993c4e6c31067.setIcon(icon_b3e3a69474cdcabed17792043d7e3ae6);
+        
+    
+        var popup_50701b333a197e2ff43bc420bd865285 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0253306efb5e678a00b7998fa4365c24 = $(`<div id="html_0253306efb5e678a00b7998fa4365c24" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_50701b333a197e2ff43bc420bd865285.setContent(html_0253306efb5e678a00b7998fa4365c24);
+            
+        
+
+        marker_7ccb7d79c95782af414993c4e6c31067.bindPopup(popup_50701b333a197e2ff43bc420bd865285)
+        ;
+
+        
+    
+    
+            var marker_a1a18c0180fb3399f9064760697c6e9b = L.marker(
+                [47.40254796657953, 8.547968210018276],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_8731cbf7ea3efcd07c0b1099a78396de = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_a1a18c0180fb3399f9064760697c6e9b.setIcon(icon_8731cbf7ea3efcd07c0b1099a78396de);
+        
+    
+        var popup_e9715f2bb61a772d6462a41f8829d1ec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_84993af775e2c08ddb7da6ba17d39ee6 = $(`<div id="html_84993af775e2c08ddb7da6ba17d39ee6" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_e9715f2bb61a772d6462a41f8829d1ec.setContent(html_84993af775e2c08ddb7da6ba17d39ee6);
+            
+        
+
+        marker_a1a18c0180fb3399f9064760697c6e9b.bindPopup(popup_e9715f2bb61a772d6462a41f8829d1ec)
+        ;
+
+        
+    
+    
+            var marker_7f51c04942f9748ea23749bb32db498e = L.marker(
+                [47.37242504337608, 8.546838407676894],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_07c12051c8beeb2a55d1b50418128af5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_7f51c04942f9748ea23749bb32db498e.setIcon(icon_07c12051c8beeb2a55d1b50418128af5);
+        
+    
+        var popup_64aa1632e67aacdbf81dc65937016766 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_49912bd878de13147ed2166c601415d7 = $(`<div id="html_49912bd878de13147ed2166c601415d7" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_64aa1632e67aacdbf81dc65937016766.setContent(html_49912bd878de13147ed2166c601415d7);
+            
+        
+
+        marker_7f51c04942f9748ea23749bb32db498e.bindPopup(popup_64aa1632e67aacdbf81dc65937016766)
+        ;
+
+        
+    
+    
+            var marker_5d57f47202cdab825d7582ecf74cdcf2 = L.marker(
+                [47.36787268290525, 8.49606084706852],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_6e48227c4483d83d8f1f629e488fdbe5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_5d57f47202cdab825d7582ecf74cdcf2.setIcon(icon_6e48227c4483d83d8f1f629e488fdbe5);
+        
+    
+        var popup_3f510f35829eb43de1ba02736b73ff11 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e784de2e394c5d88157c792836033f2 = $(`<div id="html_1e784de2e394c5d88157c792836033f2" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_3f510f35829eb43de1ba02736b73ff11.setContent(html_1e784de2e394c5d88157c792836033f2);
+            
+        
+
+        marker_5d57f47202cdab825d7582ecf74cdcf2.bindPopup(popup_3f510f35829eb43de1ba02736b73ff11)
+        ;
+
+        
+    
+    
+            var marker_ccc3739a7bbdada2cfa8c3aa8c7cbc77 = L.marker(
+                [47.39674668549622, 8.509761613991616],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_cac2d74cdbc6666db2d099a8a70589a9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_ccc3739a7bbdada2cfa8c3aa8c7cbc77.setIcon(icon_cac2d74cdbc6666db2d099a8a70589a9);
+        
+    
+        var popup_e31d456ef6b7729f66683c8cffaf7851 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2493a7b7265704a3f8ebe28c43e0e0cd = $(`<div id="html_2493a7b7265704a3f8ebe28c43e0e0cd" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_e31d456ef6b7729f66683c8cffaf7851.setContent(html_2493a7b7265704a3f8ebe28c43e0e0cd);
+            
+        
+
+        marker_ccc3739a7bbdada2cfa8c3aa8c7cbc77.bindPopup(popup_e31d456ef6b7729f66683c8cffaf7851)
+        ;
+
+        
+    
+    
+            var marker_5126316559b620888576f099bdf686d6 = L.marker(
+                [47.37059423574729, 8.524608822806062],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_a74480de0233c08ff4e8694f558d4c10 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_5126316559b620888576f099bdf686d6.setIcon(icon_a74480de0233c08ff4e8694f558d4c10);
+        
+    
+        var popup_a2ad125a772ea2fac7b1c410e8b1aff3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fbb6563dc491bfb655723f201b0bc8d0 = $(`<div id="html_fbb6563dc491bfb655723f201b0bc8d0" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_a2ad125a772ea2fac7b1c410e8b1aff3.setContent(html_fbb6563dc491bfb655723f201b0bc8d0);
+            
+        
+
+        marker_5126316559b620888576f099bdf686d6.bindPopup(popup_a2ad125a772ea2fac7b1c410e8b1aff3)
+        ;
+
+        
+    
+    
+            var marker_877fbf242ccf0ba512a24e86ca4f1c58 = L.marker(
+                [47.38649779932999, 8.523634796476905],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_aba499a107fa2d35064022290d7c3bb3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_877fbf242ccf0ba512a24e86ca4f1c58.setIcon(icon_aba499a107fa2d35064022290d7c3bb3);
+        
+    
+        var popup_a16782400d46e62b8d2e06e0c9c3fc02 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_33158a8b604cc95b672d61b236301486 = $(`<div id="html_33158a8b604cc95b672d61b236301486" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_a16782400d46e62b8d2e06e0c9c3fc02.setContent(html_33158a8b604cc95b672d61b236301486);
+            
+        
+
+        marker_877fbf242ccf0ba512a24e86ca4f1c58.bindPopup(popup_a16782400d46e62b8d2e06e0c9c3fc02)
+        ;
+
+        
+    
+    
+            var marker_a3ee26bd1dec1bb8c32a58a894fca6cd = L.marker(
+                [47.39974976176185, 8.588541905157728],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_faf021e90fb434b056a95a36e40fd9a2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_a3ee26bd1dec1bb8c32a58a894fca6cd.setIcon(icon_faf021e90fb434b056a95a36e40fd9a2);
+        
+    
+        var popup_bf363f462c4b9f686d56bbe41fb38b71 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0876acf44aa1806fe09d9db32785e960 = $(`<div id="html_0876acf44aa1806fe09d9db32785e960" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_bf363f462c4b9f686d56bbe41fb38b71.setContent(html_0876acf44aa1806fe09d9db32785e960);
+            
+        
+
+        marker_a3ee26bd1dec1bb8c32a58a894fca6cd.bindPopup(popup_bf363f462c4b9f686d56bbe41fb38b71)
+        ;
+
+        
+    
+    
+            var marker_9ffc608b328dbefafa6b8e3e0fc9ad10 = L.marker(
+                [47.39177698895021, 8.518933947284701],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_e8400086a66e32fbbc8b058dcb4791f1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_9ffc608b328dbefafa6b8e3e0fc9ad10.setIcon(icon_e8400086a66e32fbbc8b058dcb4791f1);
+        
+    
+        var popup_65a5a729f232a0cef725ab3e23d4e02e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_da9e1ebcd05944d3045442db75e3a9d9 = $(`<div id="html_da9e1ebcd05944d3045442db75e3a9d9" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_65a5a729f232a0cef725ab3e23d4e02e.setContent(html_da9e1ebcd05944d3045442db75e3a9d9);
+            
+        
+
+        marker_9ffc608b328dbefafa6b8e3e0fc9ad10.bindPopup(popup_65a5a729f232a0cef725ab3e23d4e02e)
+        ;
+
+        
+    
+    
+            var marker_4b5dd8eeeae4c05fc2e57db1b590051e = L.marker(
+                [47.396910698487865, 8.54110799378828],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_1e234f56a408f06d2810912e6580ae81 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_4b5dd8eeeae4c05fc2e57db1b590051e.setIcon(icon_1e234f56a408f06d2810912e6580ae81);
+        
+    
+        var popup_b129dfc02d17b72cefb39bcfcee4ade0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9051bdbf19b6a162f8f37faf9a1dd944 = $(`<div id="html_9051bdbf19b6a162f8f37faf9a1dd944" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_b129dfc02d17b72cefb39bcfcee4ade0.setContent(html_9051bdbf19b6a162f8f37faf9a1dd944);
+            
+        
+
+        marker_4b5dd8eeeae4c05fc2e57db1b590051e.bindPopup(popup_b129dfc02d17b72cefb39bcfcee4ade0)
+        ;
+
+        
+    
+    
+            var marker_634b86e31ed9fe8dae7cec20bf8bd1e8 = L.marker(
+                [47.40237849593476, 8.53556390986176],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_0c869b409df1c693501121557cdb4529 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_634b86e31ed9fe8dae7cec20bf8bd1e8.setIcon(icon_0c869b409df1c693501121557cdb4529);
+        
+    
+        var popup_152ae9abb5d163acef5aac989f029d3b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c5c41534559714d7a2a6ee3ef3642bf4 = $(`<div id="html_c5c41534559714d7a2a6ee3ef3642bf4" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_152ae9abb5d163acef5aac989f029d3b.setContent(html_c5c41534559714d7a2a6ee3ef3642bf4);
+            
+        
+
+        marker_634b86e31ed9fe8dae7cec20bf8bd1e8.bindPopup(popup_152ae9abb5d163acef5aac989f029d3b)
+        ;
+
+        
+    
+    
+            var marker_35c47e9be7ffbca2d1ad00c12a2bbf5a = L.marker(
+                [47.38543319251273, 8.521096689338826],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_642a38f8ccce5033545053354ec4e02d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_35c47e9be7ffbca2d1ad00c12a2bbf5a.setIcon(icon_642a38f8ccce5033545053354ec4e02d);
+        
+    
+        var popup_1abdf5a920f81e8ff7c4d87ed84a4463 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4e9421ab7629a7b9d346a0e104324ba6 = $(`<div id="html_4e9421ab7629a7b9d346a0e104324ba6" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_1abdf5a920f81e8ff7c4d87ed84a4463.setContent(html_4e9421ab7629a7b9d346a0e104324ba6);
+            
+        
+
+        marker_35c47e9be7ffbca2d1ad00c12a2bbf5a.bindPopup(popup_1abdf5a920f81e8ff7c4d87ed84a4463)
+        ;
+
+        
+    
+    
+            var marker_30ae09071d9eabe8a2e0e758df8f241b = L.marker(
+                [47.39167335653901, 8.519435194050555],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_7a60f72336012611eb368e2fda86f308 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_30ae09071d9eabe8a2e0e758df8f241b.setIcon(icon_7a60f72336012611eb368e2fda86f308);
+        
+    
+        var popup_0c2697e47f30cb56f3429920ff755651 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c54e0f6f881ac6ad06dece39cde6641 = $(`<div id="html_4c54e0f6f881ac6ad06dece39cde6641" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_0c2697e47f30cb56f3429920ff755651.setContent(html_4c54e0f6f881ac6ad06dece39cde6641);
+            
+        
+
+        marker_30ae09071d9eabe8a2e0e758df8f241b.bindPopup(popup_0c2697e47f30cb56f3429920ff755651)
+        ;
+
+        
+    
+    
+            var marker_e7c74c64dd37e98613139b67ae079038 = L.marker(
+                [47.3359521224036, 8.515170606262513],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_56c9d8e3c4deb86bbafa14bfd6252155 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_e7c74c64dd37e98613139b67ae079038.setIcon(icon_56c9d8e3c4deb86bbafa14bfd6252155);
+        
+    
+        var popup_ea419273d37bd3b865638a288b03ff89 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_64569195ed35d7e4038b3e4131e6f29c = $(`<div id="html_64569195ed35d7e4038b3e4131e6f29c" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_ea419273d37bd3b865638a288b03ff89.setContent(html_64569195ed35d7e4038b3e4131e6f29c);
+            
+        
+
+        marker_e7c74c64dd37e98613139b67ae079038.bindPopup(popup_ea419273d37bd3b865638a288b03ff89)
+        ;
+
+        
+    
+    
+            var marker_957c8ff320c4c041e069687290fe3e4c = L.marker(
+                [47.37658927279175, 8.53463612118762],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_c739b7ad967efe22fe1ff05c09d81d5a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_957c8ff320c4c041e069687290fe3e4c.setIcon(icon_c739b7ad967efe22fe1ff05c09d81d5a);
+        
+    
+        var popup_71bb233bf6cf289ca25768b3625101d9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_da48690a3d44c3825afe531ffad46adc = $(`<div id="html_da48690a3d44c3825afe531ffad46adc" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_71bb233bf6cf289ca25768b3625101d9.setContent(html_da48690a3d44c3825afe531ffad46adc);
+            
+        
+
+        marker_957c8ff320c4c041e069687290fe3e4c.bindPopup(popup_71bb233bf6cf289ca25768b3625101d9)
+        ;
+
+        
+    
+    
+            var marker_eab217f75c58a36853e0796715b6938a = L.marker(
+                [47.36191812753079, 8.515509366890992],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_076e520af2b267a23029256bd1949ce8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_eab217f75c58a36853e0796715b6938a.setIcon(icon_076e520af2b267a23029256bd1949ce8);
+        
+    
+        var popup_6f4592efe9efcef558a08a210967f87c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3d7dcc1fc6af0d00e75cc252d88c5128 = $(`<div id="html_3d7dcc1fc6af0d00e75cc252d88c5128" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_6f4592efe9efcef558a08a210967f87c.setContent(html_3d7dcc1fc6af0d00e75cc252d88c5128);
+            
+        
+
+        marker_eab217f75c58a36853e0796715b6938a.bindPopup(popup_6f4592efe9efcef558a08a210967f87c)
+        ;
+
+        
+    
+    
+            var marker_4784e590bc4255e515fabdc0dc30eec5 = L.marker(
+                [47.37049645063003, 8.549088984829503],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_2a85144592590a23318bafe55f720acf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_4784e590bc4255e515fabdc0dc30eec5.setIcon(icon_2a85144592590a23318bafe55f720acf);
+        
+    
+        var popup_e6093ffd20674cda40720cb1832e0052 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7084f2b2c8e4d426884a9ac5bdb98a44 = $(`<div id="html_7084f2b2c8e4d426884a9ac5bdb98a44" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_e6093ffd20674cda40720cb1832e0052.setContent(html_7084f2b2c8e4d426884a9ac5bdb98a44);
+            
+        
+
+        marker_4784e590bc4255e515fabdc0dc30eec5.bindPopup(popup_e6093ffd20674cda40720cb1832e0052)
+        ;
+
+        
+    
+    
+            var marker_1067f3e2190706883e353248e3900ecb = L.marker(
+                [47.35785849729001, 8.572203617856985],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_38f51bece71b82abd9a8446866c3f1a4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_1067f3e2190706883e353248e3900ecb.setIcon(icon_38f51bece71b82abd9a8446866c3f1a4);
+        
+    
+        var popup_90a500f07448389e904fba77a3ad6499 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7808e594a68e6342e3b3c16dc44fa023 = $(`<div id="html_7808e594a68e6342e3b3c16dc44fa023" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_90a500f07448389e904fba77a3ad6499.setContent(html_7808e594a68e6342e3b3c16dc44fa023);
+            
+        
+
+        marker_1067f3e2190706883e353248e3900ecb.bindPopup(popup_90a500f07448389e904fba77a3ad6499)
+        ;
+
+        
+    
+    
+            var marker_43591c658097f240acb2896d51531d04 = L.marker(
+                [47.37515616790464, 8.518703161309027],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_7e4e83f74e9911d819a7d1d0d45f27f7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_43591c658097f240acb2896d51531d04.setIcon(icon_7e4e83f74e9911d819a7d1d0d45f27f7);
+        
+    
+        var popup_b72476bf9b5a3b3784cb09c4ba959d71 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0c986caaaa8e53606ef2edf378d4c385 = $(`<div id="html_0c986caaaa8e53606ef2edf378d4c385" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_b72476bf9b5a3b3784cb09c4ba959d71.setContent(html_0c986caaaa8e53606ef2edf378d4c385);
+            
+        
+
+        marker_43591c658097f240acb2896d51531d04.bindPopup(popup_b72476bf9b5a3b3784cb09c4ba959d71)
+        ;
+
+        
+    
+    
+            var marker_61406b996ea2bea763d01173645fa5a9 = L.marker(
+                [47.37980543941838, 8.527458282037996],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_f6275dfe81efbc90da3dd99d147dbc3a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_61406b996ea2bea763d01173645fa5a9.setIcon(icon_f6275dfe81efbc90da3dd99d147dbc3a);
+        
+    
+        var popup_28ff4faa1af9398130c233d43529a96c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cfd7d34f7adb5c0b0104dcf4b458cb12 = $(`<div id="html_cfd7d34f7adb5c0b0104dcf4b458cb12" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_28ff4faa1af9398130c233d43529a96c.setContent(html_cfd7d34f7adb5c0b0104dcf4b458cb12);
+            
+        
+
+        marker_61406b996ea2bea763d01173645fa5a9.bindPopup(popup_28ff4faa1af9398130c233d43529a96c)
+        ;
+
+        
+    
+    
+            var marker_d9edef56068493bdae4fdd8e13199770 = L.marker(
+                [47.36457513767252, 8.537116524830118],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_7ebaf1553cba6f40f649c37225597c39 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_d9edef56068493bdae4fdd8e13199770.setIcon(icon_7ebaf1553cba6f40f649c37225597c39);
+        
+    
+        var popup_b346c954cf9ecceefa480538c812226c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e57cdea50961e158a232eaf45a2d623c = $(`<div id="html_e57cdea50961e158a232eaf45a2d623c" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_b346c954cf9ecceefa480538c812226c.setContent(html_e57cdea50961e158a232eaf45a2d623c);
+            
+        
+
+        marker_d9edef56068493bdae4fdd8e13199770.bindPopup(popup_b346c954cf9ecceefa480538c812226c)
+        ;
+
+        
+    
+    
+            var marker_60446f16c23e5b5b4435e60e4c55770c = L.marker(
+                [47.37431406244812, 8.516408540492819],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_31056ee15b3dfc0602c5151a986a9544 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_60446f16c23e5b5b4435e60e4c55770c.setIcon(icon_31056ee15b3dfc0602c5151a986a9544);
+        
+    
+        var popup_82f56179aed8fc93fcdf3aaf6b2281df = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7d5bd21c90d68f049f8ecb46b4e577ec = $(`<div id="html_7d5bd21c90d68f049f8ecb46b4e577ec" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_82f56179aed8fc93fcdf3aaf6b2281df.setContent(html_7d5bd21c90d68f049f8ecb46b4e577ec);
+            
+        
+
+        marker_60446f16c23e5b5b4435e60e4c55770c.bindPopup(popup_82f56179aed8fc93fcdf3aaf6b2281df)
+        ;
+
+        
+    
+    
+            var marker_284192824add6da59f629b751c317fbf = L.marker(
+                [47.41301934589739, 8.550664206148701],
+                {}
+            ).addTo(marker_cluster_ab93a884bccf45354938610d27ef4028);
+        
+    
+            var icon_17be00492e0501b4aa35f3cf15573fa4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus", "iconColor": "red", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_284192824add6da59f629b751c317fbf.setIcon(icon_17be00492e0501b4aa35f3cf15573fa4);
+        
+    
+        var popup_88e11961b83829de37a6cd0edebfeddb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6cbb65ffcb6f61ac1c0673aa33f906e8 = $(`<div id="html_6cbb65ffcb6f61ac1c0673aa33f906e8" style="width: 100.0%; height: 100.0%;">Unfall mit Schwerverletzten</div>`)[0];
+                popup_88e11961b83829de37a6cd0edebfeddb.setContent(html_6cbb65ffcb6f61ac1c0673aa33f906e8);
+            
+        
+
+        marker_284192824add6da59f629b751c317fbf.bindPopup(popup_88e11961b83829de37a6cd0edebfeddb)
+        ;
+
+        
+    
+    
+            var marker_8ef7fc8023580b45208cee23bfd942c1 = L.marker(
+                [47.38826716335299, 8.520081376296508],
+                {}
+            ).addTo(map_388dc7c1450b87d285a1d72cab648b39);
+        
+    
+            var icon_68b196c29a69c633232eb2a80644fcad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "remove", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8ef7fc8023580b45208cee23bfd942c1.setIcon(icon_68b196c29a69c633232eb2a80644fcad);
+        
+    
+        var popup_2caa585eefa28480f2399bdb895754ec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9907ef62fcb3f914cac942de5eee90b3 = $(`<div id="html_9907ef62fcb3f914cac942de5eee90b3" style="width: 100.0%; height: 100.0%;">Unfall mit Getöteten</div>`)[0];
+                popup_2caa585eefa28480f2399bdb895754ec.setContent(html_9907ef62fcb3f914cac942de5eee90b3);
+            
+        
+
+        marker_8ef7fc8023580b45208cee23bfd942c1.bindPopup(popup_2caa585eefa28480f2399bdb895754ec)
+        ;
+
+        
+    
+    
+            var marker_9fa4073cc8bb9bd206ea975325e889c1 = L.marker(
+                [47.37750242655511, 8.498463294036378],
+                {}
+            ).addTo(map_388dc7c1450b87d285a1d72cab648b39);
+        
+    
+            var icon_c7354b96b1479a9911731d61d5c73df0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "remove", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9fa4073cc8bb9bd206ea975325e889c1.setIcon(icon_c7354b96b1479a9911731d61d5c73df0);
+        
+    
+        var popup_58d2f1bcc1994cc7ee1efc0236204e98 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_180b64179d32cd2359fd4df57881a63c = $(`<div id="html_180b64179d32cd2359fd4df57881a63c" style="width: 100.0%; height: 100.0%;">Unfall mit Getöteten</div>`)[0];
+                popup_58d2f1bcc1994cc7ee1efc0236204e98.setContent(html_180b64179d32cd2359fd4df57881a63c);
+            
+        
+
+        marker_9fa4073cc8bb9bd206ea975325e889c1.bindPopup(popup_58d2f1bcc1994cc7ee1efc0236204e98)
+        ;
+
+        
+    
+</script>
+</html>
