@@ -1,6 +1,0 @@
-﻿Sie haben folgende Bestellung aufgegeben: 
-Name des Geodatensatzes: Fuss- und Velowegnetz 
-Name des Ausschnittes: stzh
-Ausschnitt (falls definiert): 2676224.694, 1241584.105, 2689665.812,1254306.233 
-Zeitpunkt der Bearbeitung: 27.10.2021 - 10:23 
-
